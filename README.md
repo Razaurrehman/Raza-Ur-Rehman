@@ -22,6 +22,18 @@
   <a href="mailto:razaurrehman1991@hotmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  &nbsp;
+  <a href="https://wa.me/qr/K7RI7GF3VLIZF1" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  </a>
+  &nbsp;
+  <a href="https://x.com/razarehman1991" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  </a>
+  &nbsp;
+  <a href="https://www.instagram.com/razaurrehman1991?igsh=MW02OXVkN2doZW9qNg==" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
 </p>
 
 ---
