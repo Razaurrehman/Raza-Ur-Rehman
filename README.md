@@ -103,6 +103,19 @@
 
 `Expo SDK 54` `React Native` `TypeScript` `Redux Toolkit` `React Navigation`
 
+<br>
+
+**FinOps and Cloud Cost Optimization Tool**
+> Worked on a complete UI overhaul for an enterprise cloud governance and infrastructure visualization platform, used to map and monitor cloud resources across AWS, Azure, and GCP.
+
+- 🎨 **Complete UI modernization** — migrated legacy interface components to **Mantine.js** for a cleaner, more consistent design system
+- 📊 **Data visualization** — built interactive charts and dashboards with **ECharts.js** for real-time infrastructure insights
+- 🗺️ **Diagramming integration** — worked with **Microsoft Visio**–style network/architecture diagram rendering for infrastructure topology views
+- ☁️ Focused on making dense, data-heavy cloud infrastructure views fast, intuitive, and enterprise-ready
+- 💰 Built a new **Cost Center** feature from scratch — enabling teams to track, allocate, and analyze cloud spend by department/project
+
+`Mantine.js` `ECharts.js` `Microsoft Visio` `React` `TypeScript`
+
 ---
 
 ### 🛠️ Languages and Tools
