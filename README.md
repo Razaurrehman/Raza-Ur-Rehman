@@ -51,6 +51,60 @@
 
 ---
 
+### 💼 Featured Projects
+
+**[CodeSense](https://github.com/Razaurrehman/CodeSense)** — AI-powered Code Intelligence Agent for engineering teams
+> Reviews PRs, detects bugs, explains codebases, generates tests, and scans vulnerabilities across 11 automated workflows — fully queue-based with per-job analytics and downloadable PDF reports.
+
+- 🧠 **Agent orchestration** via LangGraph + LangChain, routing across 11 distinct code-analysis workflows
+- ⚡ **Async job queue** (Redis + arq workers) with PostgreSQL-backed job tracking and analytics dashboards
+- 🔍 **RAG-powered retrieval** using ChromaDB + Tree-sitter AST parsing + Semgrep static analysis
+- 🤖 **LLM stack**: Groq API (`llama-3.3-70b`) as primary, local Ollama (`codellama:7b`) as fallback
+- 🖥️ **Full-stack**: FastAPI backend, React 18 + Vite + Tailwind frontend, Docker Compose orchestration
+- 🔒 **Privacy-first**: source code stays local, only code chunks sent to the LLM, GitHub OAuth read-only scopes
+
+`Python` `FastAPI` `LangGraph` `React` `PostgreSQL` `Redis` `ChromaDB` `Docker`
+
+<br>
+
+**[LocalDoc](https://github.com/Razaurrehman/LocalDoc)** — Privacy-first desktop file converter
+> Converts between PDF, DOC/DOCX, PPT/PPTX, XLS/XLSX, and ODT entirely on-device — no file is ever uploaded to a server.
+
+- 🖥️ **Desktop app** built with Tauri (Rust backend) + React/TypeScript frontend
+- 🔒 **Fully local**: every conversion runs as a local subprocess via LibreOffice (`soffice --headless`), never touching a remote server
+- 📄 Handles DOC/DOCX/PPT/PPTX/XLS/XLSX/ODT ↔ PDF conversions with drag-and-drop UI
+- 🚧 Actively evolving — OCR support (Tesseract-based, for scanned PDFs) and license/paywall gating planned as fast-follows
+
+`Rust` `Tauri` `React` `TypeScript` `LibreOffice`
+
+<br>
+
+**[PakDealsHub CMS](https://github.com/Razaurrehman/PakDealsHub-CMS-Nextjs)** — Headless e-commerce CMS & REST API
+> A full-featured admin panel and public REST API backend for the PakDealsHub e-commerce platform — powering both a mobile app and web storefront.
+
+- 🛠️ **18+ admin modules**: products, categories, orders, customers, blogs, coupons, banners, reviews, activity logs, and more
+- 🔌 **Public REST API** consumed by a React Native mobile app — auth, catalogue, blog, and commerce endpoints with full CORS support
+- 🔐 **Security-hardened**: JWT auth, OTP email verification, sliding-window rate limiting, and bot-detection middleware with auto IP-ban
+- 🗄️ **Multi-tenant schema** via Prisma ORM + PostgreSQL, with 15+ relational models
+- 🌱 Seed pipeline that crawls real product data to bootstrap categories, brands, and products
+
+`Next.js 15` `TypeScript` `Prisma` `PostgreSQL` `Tailwind CSS` `Zod`
+
+<br>
+
+**[PakDealsHub Mobile App](https://github.com/Razaurrehman/PakDealsHub-Application-ReactNative)** — E-commerce mobile app (companion to PakDealsHub CMS)
+> Full-featured shopping app for the Pakistani market — product browsing, cart, checkout, order tracking, and account management, built on Expo/React Native.
+
+- 🛍️ **Complete shopping flow**: home feed, search, product detail with variants, cart, checkout, and real-time order tracking
+- 👤 **Full account system**: OTP-verified registration, JWT auth, profile photo upload, delivery addresses (all Pakistani provinces), and saved payment methods (JazzCash, EasyPaisa, cards, COD)
+- 🌗 **Polished UX**: system-following dark/light mode, skeleton loaders, fully typed with TypeScript
+- 🔄 **State management** via Redux Toolkit, persisted with AsyncStorage
+- 🔌 Powered entirely by the **PakDealsHub CMS** REST API — same backend, cross-platform (mobile + web)
+
+`Expo SDK 54` `React Native` `TypeScript` `Redux Toolkit` `React Navigation`
+
+---
+
 ### 🛠️ Languages and Tools
 
 <p align="left">
