@@ -107,9 +107,27 @@
 
 ### 🛠️ Languages and Tools
 
+**Frontend**
+
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,angular,nodejs,html,css,tailwind,aws,docker,git,python,figma" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,redux,nextjs,angular,html,css,tailwind,materialui,figma" />
 </p>
+
+**Backend & APIs**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,cs,dotnet,rust" />
+</p>
+
+**Databases & Infra**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,prisma,docker,aws,azure,git,github" />
+</p>
+
+**AI / Agentic Tooling**
+
+`LangGraph` `LangChain` `RAG Pipelines` `ChromaDB` `pgvector` `Claude` `ChatGPT` `OpenAI Codex` `Agentic AI`
 
 ---
 
